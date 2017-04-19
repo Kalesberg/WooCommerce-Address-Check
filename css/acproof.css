@@ -1,0 +1,126 @@
+input[type=text], select {
+    height: auto !important;
+    margin-bottom: 9px;
+    padding: 5px !important;
+	min-width: 300px;
+}
+select[multiple=multiple] {
+	min-height: 150px;
+}
+textarea {
+    margin-bottom: 9px !important;
+    padding: 6px;
+}
+input:focus, textarea:focus {
+    background-color: #F9F9F9;
+    border: 1px solid #CCCCCC;
+}
+input[type=button], input[type=submit] {
+	background-color: #EAEAEA;
+    background-image: linear-gradient(#FAFAFA, #EAEAEA);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #DDDDDD #C5C5C5;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    cursor: pointer;
+	font-size: 14px;
+	padding: 5px 15px 5px 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+input[type=submit]:hover {
+	background-color: #CACACA;
+	background-image: linear-gradient(#EAEAEA, #CACACA);
+}
+input[type=button]:active , input[type=submit]:active {
+	background-color: #AAAAAA;
+	background-image: linear-gradient(#DADADA, #AAAAAA);
+}
+.close {
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #000000;
+	text-shadow: 0 1px 0 #ffffff;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+}
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.alert,
+.alert h4 {
+  color: #c09853;
+}
+
+.alert h4 {
+  margin: 0;
+}
+
+.alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 20px;
+}
+div.container {
+	padding: 30px;
+	background: white;
+}
+.column-order_status .acproof {
+	margin-top: 10px !important;
+	background-color: #545963 !important;
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-indent: 0em !important;
+	line-height: 18px;
+}
+.column-order_status .unknown, .column-order_status .unchecked {
+	background-color: #545963 !important;
+}
+.column-order_status .correct {
+	background-color: #3ea4f3 !important;
+}
+.column-order_status .country {
+	background-color: #fc6040 !important;
+}
+.column-order_status .postcode {
+	background-color: #5bd060 !important;
+}
+.column-order_status .province {
+	background-color: #ecc81f !important;
+}
+.column-order_status .city {
+	background-color: #b9572c !important;
+}
+.column-order_status .street {
+	background-color: #684dda !important;
+}
